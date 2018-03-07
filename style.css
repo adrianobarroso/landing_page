@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(170, 170, 170);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-family: arial;
+}
+
+h2 span {
+  text-decoration: underline;
+}
+
+.fa-sun {
+  color: yellow;
+}
+
+.section {
+  margin: 40px 10px;
+}
+
+.bigger {
+  width: 100%;
+  margin: 0 40px;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.list-section {
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+}
+.card h2 {
+  font-size: 15px;
+}
+.card {
+  border: 1px solid rgb(30, 30, 30);
+  background-color: rgb(170, 170, 170);
+  margin: 10px 10px;
+  padding: 10px 5px;
+  max-width: 350px;
+}
+
+.surf {
+  width: 100px;
+  height: 100px;
+}
+
+.round-img {
+  border-radius: 50%;
+}
+
+#special {
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 0px 30px rgb(250, 250, 250);
+}
+
+.list-content {
+  width: 300px;
+}
+
+.list-meetup {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list-meetup svg {
+  font-size: 40px;
+  color: rgb(170, 170, 170);
+}
+
+.footer {
+  background-color: rgb(60, 60, 60);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.footer li {
+  list-style-type: none;
+}
